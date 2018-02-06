@@ -26,8 +26,7 @@ compile 'com.squareup.picasso:picasso:2.5.2'
 * Retrofit : it will help us to consume the WebService that provides data formatted in JSON
 * GSON : it will help use to convert from/to JSON, we can say that it acts like an "ORM"
 * RecyclerView : here I used RecyclerView instead of ListView because the first one has a good performance and enhancements than the second one
-* Picasso : it will help us to use/display a remote image into a ImageView without writing a lot lines of code, we'll write only
-one where we provide the Image URL.
+* Picasso : it will help us to use/display a remote image into an ImageView without writing a lot of lines of code, we'll write only one line where we provide the Image URL.
 
 # 3 Layers architecture
 In this code I had tried to make a 3 layers architecture to achieve separation of concerns, modularity, legibility and maintainability. Here are the used packages :
@@ -42,6 +41,8 @@ To ensure the internationalization concept, we'll use String constants in the "s
 # Finally
 
 I hope that I can join the HiddenFounders Team and here is my email address : yassinechaoui.dev@gmail.com
+
+Thanks for providing me the chance to pass this coding challenge.
 
 Cheers !!
 
