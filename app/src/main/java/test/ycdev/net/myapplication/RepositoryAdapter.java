@@ -46,7 +46,13 @@ public class RepositoryAdapter extends RecyclerView.Adapter<RepositoryAdapter.Vi
         // It let us to display a remote image inside an ImageView : YcDev
         Picasso.with(holder.ownerAvatar.getContext()).load(avatar_url).into(holder.ownerAvatar);
         holder.ownerName.setText(repoOwnerName);
-        holder.starsNumber.setText(String.valueOf(starsCount));
+        if (starsCount % 1000 != 0) {
+            int result = starsCount / 1000;
+            holder.starsNumber.setText(String.valueOf(result) + "k");
+        }
+        else
+            holder.starsNumber.setText(String.valueOf(starsCount));
+
     }
 
     @Override
