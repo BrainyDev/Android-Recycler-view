@@ -3,7 +3,7 @@ package test.ycdev.net.models;
 /**
  * Created by yassine on 2/5/18.
  */
-
+// This class contains metadata about the repository owner
 public class Owner {
     private String login;
     private String avatar_url;

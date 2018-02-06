@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Created by yassine on 2/5/18.
  */
-
+// This class contains the whole data retrieved from the Git API in JSON format
 public class JsonRoot {
     private List<GitRepository> items;
 
