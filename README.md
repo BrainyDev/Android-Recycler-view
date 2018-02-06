@@ -4,7 +4,7 @@ This code was made by YcDev
 * The project depends on some libraries (Dependencies) and permissions, so before trying to write any piece of code, make sure that you added the following lines :
 
 ### Permissions to add in the "AndroidManifest.xml" file to have access to INTERNET Service:
-<uses-permission android:name="android.permission.INTERNET" />
+\<uses-permission android:name="android.permission.INTERNET" />
 
 ### Then add the following dependencies in your "build.gradle" gradle file :
 
