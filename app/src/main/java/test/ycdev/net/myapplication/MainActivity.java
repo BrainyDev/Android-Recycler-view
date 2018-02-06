@@ -6,17 +6,18 @@ import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.View;
 import android.view.Window;
 
+import android.widget.LinearLayout;
+import android.widget.Toast;
 
-import java.lang.annotation.Annotation;
 import java.util.List;
 
 import retrofit.Call;
 import retrofit.Callback;
 import retrofit.Response;
 import retrofit.Retrofit;
-import retrofit.http.GET;
 import test.ycdev.net.business.GitRepositoryService;
 import test.ycdev.net.business.GitRepositoryServiceImpl;
 import test.ycdev.net.dao.GitRepositoryDao;
@@ -29,17 +30,18 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView.Adapter repoAdapter;
     private RecyclerView.LayoutManager layoutManager;
     private List<GitRepository> repositories;
+    private LinearLayout setting,trending;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
-        test();
-
+        start();
+        test02();
     }
 
-    void test() {
+    void start() {
         GitRepositoryDao dao = new GitRepositoryDaoImpl();
         GitRepositoryService business = new GitRepositoryServiceImpl(dao);
 
@@ -68,6 +70,25 @@ public class MainActivity extends AppCompatActivity {
                 t.printStackTrace();
             }
         });
+    }
+
+    void test02() {
+        setting = findViewById(R.id.setting_layout);
+        setting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Setting (to be continued)", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        trending = findViewById(R.id.trending);
+        trending.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Trending (to be continued)", Toast.LENGTH_SHORT).show();
+            }
+        });
+
     }
 
 }
