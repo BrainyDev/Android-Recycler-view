@@ -1,8 +1,12 @@
 # HiddenFounders_YcDev
 This code was made by YcDev
 
-The project depends on some libraries (Dependencies), so before trying to write any piece of code, make sure that you added
-the following dependencies in your grade file "build.gradle" :
+* The project depends on some libraries (Dependencies) and permissions, so before trying to write any piece of code, make sure that you added the following lines :
+
+### Permissions to add in the "AndroidManifest.xml" file to have access to INTERNET Service:
+<uses-permission android:name="android.permission.INTERNET" />
+
+### Then add the following dependencies in your "build.gradle" gradle file :
 
 ### Retrofit (Http client) + Gson
 compile 'com.squareup.retrofit:retrofit:2.0.0-beta2'
@@ -15,6 +19,7 @@ compile 'com.android.support:recyclerview-v7:26.1.0'
 
 ### Picasso
 compile 'com.squareup.picasso:picasso:2.5.2'
+
 
 # Choices
 
@@ -31,7 +36,8 @@ In this code I had tried to make a 3 layers architecture to achieve separation o
 * business : contains the application logic
 * my application : contains the presentation
 
-
+# Internationalization
+To ensure the internationalization concept, we'll use String constants in the "string.xml" resource file.
 
 # Finally
 
