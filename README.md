@@ -38,6 +38,9 @@ In this code I had tried to make a 3 layers architecture to achieve separation o
 # Internationalization
 To ensure the internationalization concept, we'll use String constants in the "string.xml" resource file.
 
+# Overview
+![alt text](/overview.png)
+
 # Finally
 
 I hope that I can join the HiddenFounders Team and here is my email address : yassinechaoui.dev@gmail.com
@@ -46,4 +49,4 @@ Thanks for providing me the chance to pass this coding challenge.
 
 Cheers !!
 
-![alt text](/overview.png)
+
