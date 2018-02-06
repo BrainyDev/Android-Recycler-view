@@ -25,7 +25,7 @@ compile 'com.squareup.picasso:picasso:2.5.2'
 one where we provide the Image URL.
 
 # 3 Layers architecture
-In this code I had tried to make a 3 layers architecture to achieve modularity, legibility and maintainability. Here are the used packages :
+In this code I had tried to make a 3 layers architecture to achieve separation of concerns, modularity, legibility and maintainability. Here are the used packages :
 * models : contains POJOs for carrying data
 * dao : to manage code that interacts directly with datasource
 * business : contains the application logic
