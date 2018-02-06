@@ -1,9 +1,8 @@
 package test.ycdev.net.business;
 
-import java.util.List;
-
+import retrofit.Call;
 import test.ycdev.net.dao.GitRepositoryDao;
-import test.ycdev.net.models.GitRepository;
+import test.ycdev.net.models.JsonRoot;
 
 /**
  * Created by yassine on 2/5/18.
@@ -22,7 +21,7 @@ public class GitRepositoryServiceImpl implements GitRepositoryService{
     }
 
     @Override
-    public List<GitRepository> getRepositories() {
-        return dao.getJSONRepositories();
+    public Call<JsonRoot> getRepositoryList() {
+        return dao.loadJSONData();
     }
 }

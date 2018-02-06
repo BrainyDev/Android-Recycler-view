@@ -30,4 +30,8 @@ dependencies {
     compile 'com.google.code.gson:gson:1.7.2'
     compile 'com.squareup.retrofit:converter-gson:2.0.0-beta2'
     compile 'com.squareup.okhttp:okhttp:2.4.0'
+    // RecyclerView dependency for displaying data as a graphical list : YcDev
+    compile 'com.android.support:recyclerview-v7:26.1.0'
+    // Picasso for loading/using remote images via URL
+    compile 'com.squareup.picasso:picasso:2.5.2'
 }

@@ -1,13 +1,12 @@
 package test.ycdev.net.business;
 
-import java.util.List;
-
-import test.ycdev.net.models.GitRepository;
+import retrofit.Call;
+import test.ycdev.net.models.JsonRoot;
 
 /**
  * Created by yassine on 2/5/18.
  */
 
 public interface GitRepositoryService {
-    public List<GitRepository> getRepositories();
+    public Call<JsonRoot> getRepositoryList();
 }

@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="next">Next Activity</string>
+    <string name="app_name">Hidden Founders</string>
+    <string name="header_title">Trending Repositories</string>
 </resources>
