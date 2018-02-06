@@ -21,7 +21,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Trending"
+            android:text="@string/trending"
             android:textStyle="bold"
             android:textColor="@color/white"/>
 
@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/white"
-            android:text="Setting" />
+            android:text="@string/setting" />
 
     </LinearLayout>
 
