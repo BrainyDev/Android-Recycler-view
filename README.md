@@ -41,11 +41,9 @@ To ensure the internationalization concept, we'll use String constants in the "s
 # Overview
 ![alt text](/overview.png)
 
-# Finally
 
-I hope that I can join the HiddenFounders Team and here is my email address : yassinechaoui.dev@gmail.com
 
-Thanks for providing me the chance to pass this coding challenge.
+Here is my email address : yassinechaoui.dev@gmail.com
 
 Cheers !!
 
