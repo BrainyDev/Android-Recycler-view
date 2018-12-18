@@ -1,5 +1,4 @@
 # HiddenFounders_YcDev
-Developed by YcDev
 
 * The project depends on some libraries (Dependencies) and permissions, so before trying to write any piece of code, make sure that you added the following lines :
 
