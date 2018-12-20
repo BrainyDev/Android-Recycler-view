@@ -42,7 +42,7 @@ To ensure the internationalization concept, we'll use String constants in the "s
 
 
 
-Here is my email address : yassinechaoui.dev@gmail.com
+Here is my email address : yassinechaoui95@gmail.com
 
 Cheers !!
 
